@@ -1,0 +1,804 @@
+🧠 Starting 450K Behavioral Learning Simulation...
+
+Target Users: 450,000
+Batch Size: 1500
+Concurrent Users: 75
+Learning Behaviors: 5
+Cognitive Domains: 12
+
+[PROGRESS] Processed 41/450000 users (38.4 users/sec)
+[BATCH 1] Completed 75 users in 1368ms
+[PROGRESS] Processed 76/450000 users (42.8 users/sec)
+[BATCH 1] Completed 75 users in 649ms
+[PROGRESS] Processed 155/450000 users (58.3 users/sec)
+[BATCH 1] Completed 75 users in 790ms
+[PROGRESS] Processed 226/450000 users (64.8 users/sec)
+[BATCH 1] Completed 75 users in 805ms
+[PROGRESS] Processed 301/450000 users (74.0 users/sec)
+[BATCH 1] Completed 75 users in 669ms
+[PROGRESS] Processed 376/450000 users (76.5 users/sec)
+[BATCH 1] Completed 75 users in 722ms
+[PROGRESS] Processed 451/450000 users (82.1 users/sec)
+[BATCH 1] Completed 75 users in 616ms
+[PROGRESS] Processed 526/450000 users (86.3 users/sec)
+[BATCH 1] Completed 75 users in 604ms
+[PROGRESS] Processed 601/450000 users (90.1 users/sec)
+[BATCH 1] Completed 75 users in 532ms
+[PROGRESS] Processed 676/450000 users (92.5 users/sec)
+[BATCH 1] Completed 75 users in 679ms
+[PROGRESS] Processed 751/450000 users (95.2 users/sec)
+[BATCH 1] Completed 75 users in 547ms
+[PROGRESS] Processed 827/450000 users (98.1 users/sec)
+[BATCH 1] Completed 75 users in 554ms
+[PROGRESS] Processed 901/450000 users (100.5 users/sec)
+[BATCH 1] Completed 75 users in 507ms
+[PROGRESS] Processed 976/450000 users (103.1 users/sec)
+[BATCH 1] Completed 75 users in 513ms
+[PROGRESS] Processed 1051/450000 users (105.2 users/sec)
+[BATCH 1] Completed 75 users in 538ms
+[PROGRESS] Processed 1126/450000 users (107.0 users/sec)
+[BATCH 1] Completed 75 users in 518ms
+[PROGRESS] Processed 1201/450000 users (107.9 users/sec)
+[BATCH 1] Completed 75 users in 636ms
+[PROGRESS] Processed 1276/450000 users (109.3 users/sec)
+[BATCH 1] Completed 75 users in 491ms
+[PROGRESS] Processed 1351/450000 users (110.6 users/sec)
+[BATCH 1] Completed 75 users in 564ms
+[PROGRESS] Processed 1426/450000 users (111.9 users/sec)
+[BATCH 1] Completed 75 users in 514ms
+[BATCH COMPLETE] 1/300 | Time: 12833ms | Avg/User: 8.6ms
+[BATCH 2] Completed 75 users in 502ms
+[BATCH 2] Completed 75 users in 516ms
+[BATCH 2] Completed 75 users in 496ms
+[BATCH 2] Completed 75 users in 477ms
+[BATCH 2] Completed 75 users in 498ms
+[BATCH 2] Completed 75 users in 511ms
+[BATCH 2] Completed 75 users in 572ms
+[BATCH 2] Completed 75 users in 575ms
+[BATCH 2] Completed 75 users in 543ms
+[BATCH 2] Completed 75 users in 478ms
+[BATCH 2] Completed 75 users in 526ms
+[BATCH 2] Completed 75 users in 454ms
+[BATCH 2] Completed 75 users in 483ms
+[BATCH 2] Completed 75 users in 531ms
+[BATCH 2] Completed 75 users in 469ms
+[BATCH 2] Completed 75 users in 620ms
+[BATCH 2] Completed 75 users in 725ms
+[BATCH 2] Completed 75 users in 455ms
+[BATCH 2] Completed 75 users in 474ms
+[BATCH 2] Completed 75 users in 449ms
+[BATCH COMPLETE] 2/300 | Time: 10369ms | Avg/User: 6.9ms
+[PROGRESS] Processed 3001/450000 users (126.4 users/sec)
+[BATCH 3] Completed 75 users in 646ms
+[PROGRESS] Processed 3076/450000 users (126.8 users/sec)
+[BATCH 3] Completed 75 users in 519ms
+[PROGRESS] Processed 3151/450000 users (127.6 users/sec)
+[BATCH 3] Completed 75 users in 474ms
+[PROGRESS] Processed 3226/450000 users (127.5 users/sec)
+[BATCH 3] Completed 75 users in 613ms
+[PROGRESS] Processed 3301/450000 users (127.7 users/sec)
+[BATCH 3] Completed 75 users in 516ms
+[PROGRESS] Processed 3376/450000 users (126.9 users/sec)
+[BATCH 3] Completed 75 users in 750ms
+[PROGRESS] Processed 3452/450000 users (127.1 users/sec)
+[BATCH 3] Completed 75 users in 678ms
+[PROGRESS] Processed 3526/450000 users (127.7 users/sec)
+[BATCH 3] Completed 75 users in 424ms
+[PROGRESS] Processed 3601/450000 users (127.6 users/sec)
+[BATCH 3] Completed 75 users in 537ms
+[PROGRESS] Processed 3676/450000 users (127.9 users/sec)
+[BATCH 3] Completed 75 users in 481ms
+[PROGRESS] Processed 3751/450000 users (128.3 users/sec)
+[BATCH 3] Completed 75 users in 494ms
+[PROGRESS] Processed 3826/450000 users (128.6 users/sec)
+[BATCH 3] Completed 75 users in 546ms
+[PROGRESS] Processed 3901/450000 users (128.8 users/sec)
+[BATCH 3] Completed 75 users in 489ms
+[PROGRESS] Processed 3976/450000 users (129.0 users/sec)
+[BATCH 3] Completed 75 users in 628ms
+[PROGRESS] Processed 4052/450000 users (129.2 users/sec)
+[BATCH 3] Completed 75 users in 457ms
+[PROGRESS] Processed 4126/450000 users (129.4 users/sec)
+[BATCH 3] Completed 75 users in 498ms
+[PROGRESS] Processed 4201/450000 users (129.6 users/sec)
+[BATCH 3] Completed 75 users in 536ms
+[PROGRESS] Processed 4276/450000 users (130.0 users/sec)
+[BATCH 3] Completed 75 users in 501ms
+[PROGRESS] Processed 4351/450000 users (130.4 users/sec)
+[BATCH 3] Completed 75 users in 455ms
+[PROGRESS] Processed 4426/450000 users (130.6 users/sec)
+[BATCH 3] Completed 75 users in 539ms
+[BATCH COMPLETE] 3/300 | Time: 10784ms | Avg/User: 7.2ms
+[BATCH 4] Completed 75 users in 485ms
+[BATCH 4] Completed 75 users in 459ms
+[BATCH 4] Completed 75 users in 478ms
+[BATCH 4] Completed 75 users in 457ms
+[BATCH 4] Completed 75 users in 484ms
+[BATCH 4] Completed 75 users in 461ms
+[BATCH 4] Completed 75 users in 481ms
+[BATCH 4] Completed 75 users in 634ms
+[BATCH 4] Completed 75 users in 438ms
+[BATCH 4] Completed 75 users in 476ms
+[BATCH 4] Completed 75 users in 493ms
+[BATCH 4] Completed 75 users in 455ms
+[BATCH 4] Completed 75 users in 500ms
+[BATCH 4] Completed 75 users in 609ms
+[BATCH 4] Completed 75 users in 518ms
+[BATCH 4] Completed 75 users in 475ms
+[BATCH 4] Completed 75 users in 467ms
+[BATCH 4] Completed 75 users in 506ms
+[BATCH 4] Completed 75 users in 505ms
+[BATCH 4] Completed 75 users in 484ms
+[BATCH COMPLETE] 4/300 | Time: 9867ms | Avg/User: 6.6ms
+[PROGRESS] Processed 6001/450000 users (135.0 users/sec)
+[BATCH 5] Completed 75 users in 734ms
+[PROGRESS] Processed 6077/450000 users (135.0 users/sec)
+[BATCH 5] Completed 75 users in 554ms
+[PROGRESS] Processed 6151/450000 users (135.2 users/sec)
+[BATCH 5] Completed 75 users in 439ms
+[PROGRESS] Processed 6226/450000 users (135.3 users/sec)
+[BATCH 5] Completed 75 users in 669ms
+[PROGRESS] Processed 6301/450000 users (135.3 users/sec)
+[BATCH 5] Completed 75 users in 432ms
+[PROGRESS] Processed 6376/450000 users (135.4 users/sec)
+[BATCH 5] Completed 75 users in 486ms
+[PROGRESS] Processed 6451/450000 users (135.5 users/sec)
+[BATCH 5] Completed 75 users in 525ms
+[PROGRESS] Processed 6526/450000 users (135.5 users/sec)
+[BATCH 5] Completed 75 users in 585ms
+[PROGRESS] Processed 6601/450000 users (135.7 users/sec)
+[BATCH 5] Completed 75 users in 482ms
+[PROGRESS] Processed 6676/450000 users (135.7 users/sec)
+[BATCH 5] Completed 75 users in 637ms
+[PROGRESS] Processed 6751/450000 users (135.7 users/sec)
+[BATCH 5] Completed 75 users in 463ms
+[PROGRESS] Processed 6826/450000 users (135.8 users/sec)
+[BATCH 5] Completed 75 users in 563ms
+[PROGRESS] Processed 6901/450000 users (135.8 users/sec)
+[BATCH 5] Completed 75 users in 499ms
+[PROGRESS] Processed 6976/450000 users (135.7 users/sec)
+[BATCH 5] Completed 75 users in 594ms
+[PROGRESS] Processed 7051/450000 users (135.4 users/sec)
+[BATCH 5] Completed 75 users in 681ms
+[PROGRESS] Processed 7126/450000 users (135.1 users/sec)
+[BATCH 5] Completed 75 users in 635ms
+[PROGRESS] Processed 7201/450000 users (135.2 users/sec)
+[BATCH 5] Completed 75 users in 498ms
+[PROGRESS] Processed 7276/450000 users (135.2 users/sec)
+[BATCH 5] Completed 75 users in 549ms
+[PROGRESS] Processed 7351/450000 users (134.8 users/sec)
+[BATCH 5] Completed 75 users in 887ms
+[PROGRESS] Processed 7426/450000 users (134.7 users/sec)
+[BATCH 5] Completed 75 users in 460ms
+[BATCH COMPLETE] 5/300 | Time: 11382ms | Avg/User: 7.6ms
+[BATCH 6] Completed 75 users in 543ms
+[BATCH 6] Completed 75 users in 514ms
+[BATCH 6] Completed 75 users in 600ms
+[BATCH 6] Completed 75 users in 544ms
+[BATCH 6] Completed 75 users in 454ms
+[BATCH 6] Completed 75 users in 575ms
+[BATCH 6] Completed 75 users in 690ms
+[BATCH 6] Completed 75 users in 700ms
+[BATCH 6] Completed 75 users in 620ms
+[BATCH 6] Completed 75 users in 698ms
+[BATCH 6] Completed 75 users in 700ms
+[BATCH 6] Completed 75 users in 655ms
+[BATCH 6] Completed 75 users in 555ms
+[BATCH 6] Completed 75 users in 551ms
+[BATCH 6] Completed 75 users in 606ms
+[BATCH 6] Completed 75 users in 577ms
+[BATCH 6] Completed 75 users in 687ms
+[BATCH 6] Completed 75 users in 646ms
+[BATCH 6] Completed 75 users in 612ms
+[BATCH 6] Completed 75 users in 658ms
+[BATCH COMPLETE] 6/300 | Time: 12192ms | Avg/User: 8.1ms
+[PROGRESS] Processed 9001/450000 users (132.6 users/sec)
+[BATCH 7] Completed 75 users in 573ms
+[PROGRESS] Processed 9076/450000 users (132.4 users/sec)
+[BATCH 7] Completed 75 users in 644ms
+[PROGRESS] Processed 9151/450000 users (132.1 users/sec)
+[BATCH 7] Completed 75 users in 815ms
+[PROGRESS] Processed 9226/450000 users (131.8 users/sec)
+[BATCH 7] Completed 75 users in 660ms
+[PROGRESS] Processed 9301/450000 users (131.4 users/sec)
+[BATCH 7] Completed 75 users in 788ms
+[PROGRESS] Processed 9376/450000 users (131.3 users/sec)
+[BATCH 7] Completed 75 users in 631ms
+[PROGRESS] Processed 9451/450000 users (131.2 users/sec)
+[BATCH 7] Completed 75 users in 560ms
+[PROGRESS] Processed 9526/450000 users (131.2 users/sec)
+[BATCH 7] Completed 75 users in 759ms
+[PROGRESS] Processed 9601/450000 users (131.1 users/sec)
+[BATCH 7] Completed 75 users in 553ms
+[PROGRESS] Processed 9679/450000 users (130.9 users/sec)
+[BATCH 7] Completed 75 users in 743ms
+[PROGRESS] Processed 9751/450000 users (130.5 users/sec)
+[BATCH 7] Completed 75 users in 641ms
+[PROGRESS] Processed 9826/450000 users (130.3 users/sec)
+[BATCH 7] Completed 75 users in 695ms
+[PROGRESS] Processed 9901/450000 users (130.1 users/sec)
+[BATCH 7] Completed 75 users in 678ms
+[PROGRESS] Processed 9976/450000 users (129.8 users/sec)
+[BATCH 7] Completed 75 users in 998ms
+[PROGRESS] Processed 10051/450000 users (129.6 users/sec)
+[BATCH 7] Completed 75 users in 571ms
+[PROGRESS] Processed 10126/450000 users (129.3 users/sec)
+[BATCH 7] Completed 75 users in 690ms
+[PROGRESS] Processed 10201/450000 users (129.1 users/sec)
+[BATCH 7] Completed 75 users in 677ms
+[PROGRESS] Processed 10276/450000 users (129.0 users/sec)
+[BATCH 7] Completed 75 users in 737ms
+[PROGRESS] Processed 10351/450000 users (128.6 users/sec)
+[BATCH 7] Completed 75 users in 773ms
+[PROGRESS] Processed 10426/450000 users (128.0 users/sec)
+[BATCH 7] Completed 75 users in 997ms
+[BATCH COMPLETE] 7/300 | Time: 14198ms | Avg/User: 9.5ms
+[BATCH 8] Completed 75 users in 640ms
+[BATCH 8] Completed 75 users in 650ms
+[BATCH 8] Completed 75 users in 717ms
+[BATCH 8] Completed 75 users in 774ms
+[BATCH 8] Completed 75 users in 598ms
+[BATCH 8] Completed 75 users in 647ms
+[BATCH 8] Completed 75 users in 969ms
+[BATCH 8] Completed 75 users in 868ms
+[BATCH 8] Completed 75 users in 826ms
+[BATCH 8] Completed 75 users in 904ms
+[BATCH 8] Completed 75 users in 789ms
+[BATCH 8] Completed 75 users in 666ms
+[BATCH 8] Completed 75 users in 863ms
+[BATCH 8] Completed 75 users in 823ms
+[BATCH 8] Completed 75 users in 1005ms
+[BATCH 8] Completed 75 users in 785ms
+[BATCH 8] Completed 75 users in 699ms
+[BATCH 8] Completed 75 users in 866ms
+[BATCH 8] Completed 75 users in 660ms
+[BATCH 8] Completed 75 users in 618ms
+[BATCH COMPLETE] 8/300 | Time: 15384ms | Avg/User: 10.3ms
+[PROGRESS] Processed 12030/450000 users (123.3 users/sec)
+[BATCH 9] Completed 75 users in 699ms
+[PROGRESS] Processed 12076/450000 users (122.9 users/sec)
+[BATCH 9] Completed 75 users in 650ms
+[PROGRESS] Processed 12151/450000 users (122.9 users/sec)
+[BATCH 9] Completed 75 users in 622ms
+[PROGRESS] Processed 12226/450000 users (123.0 users/sec)
+[BATCH 9] Completed 75 users in 552ms
+[PROGRESS] Processed 12301/450000 users (122.8 users/sec)
+[BATCH 9] Completed 75 users in 750ms
+[PROGRESS] Processed 12376/450000 users (122.9 users/sec)
+[BATCH 9] Completed 75 users in 515ms
+[PROGRESS] Processed 12452/450000 users (123.0 users/sec)
+[BATCH 9] Completed 75 users in 561ms
+[PROGRESS] Processed 12526/450000 users (123.0 users/sec)
+[BATCH 9] Completed 75 users in 596ms
+[PROGRESS] Processed 12602/450000 users (123.1 users/sec)
+[BATCH 9] Completed 75 users in 636ms
+[PROGRESS] Processed 12676/450000 users (123.2 users/sec)
+[BATCH 9] Completed 75 users in 495ms
+[PROGRESS] Processed 12752/450000 users (122.9 users/sec)
+[BATCH 9] Completed 75 users in 729ms
+[PROGRESS] Processed 12826/450000 users (123.1 users/sec)
+[BATCH 9] Completed 75 users in 494ms
+[PROGRESS] Processed 12901/450000 users (123.2 users/sec)
+[BATCH 9] Completed 75 users in 562ms
+[PROGRESS] Processed 12976/450000 users (123.3 users/sec)
+[BATCH 9] Completed 75 users in 465ms
+[PROGRESS] Processed 13051/450000 users (123.4 users/sec)
+[BATCH 9] Completed 75 users in 511ms
+[PROGRESS] Processed 13126/450000 users (123.5 users/sec)
+[BATCH 9] Completed 75 users in 514ms
+[PROGRESS] Processed 13201/450000 users (123.7 users/sec)
+[BATCH 9] Completed 75 users in 496ms
+[PROGRESS] Processed 13276/450000 users (123.8 users/sec)
+[BATCH 9] Completed 75 users in 519ms
+[PROGRESS] Processed 13351/450000 users (123.8 users/sec)
+[BATCH 9] Completed 75 users in 527ms
+[PROGRESS] Processed 13428/450000 users (123.7 users/sec)
+[BATCH 9] Completed 75 users in 742ms
+[BATCH COMPLETE] 9/300 | Time: 11636ms | Avg/User: 7.8ms
+[BATCH 10] Completed 75 users in 786ms
+[BATCH 10] Completed 75 users in 570ms
+[BATCH 10] Completed 75 users in 600ms
+[BATCH 10] Completed 75 users in 608ms
+[BATCH 10] Completed 75 users in 481ms
+[BATCH 10] Completed 75 users in 455ms
+[BATCH 10] Completed 75 users in 512ms
+[BATCH 10] Completed 75 users in 454ms
+[BATCH 10] Completed 75 users in 473ms
+[BATCH 10] Completed 75 users in 525ms
+[BATCH 10] Completed 75 users in 460ms
+[BATCH 10] Completed 75 users in 610ms
+[BATCH 10] Completed 75 users in 448ms
+[BATCH 10] Completed 75 users in 441ms
+[BATCH 10] Completed 75 users in 502ms
+[BATCH 10] Completed 75 users in 533ms
+[BATCH 10] Completed 75 users in 564ms
+[BATCH 10] Completed 75 users in 528ms
+[BATCH 10] Completed 75 users in 593ms
+[BATCH 10] Completed 75 users in 651ms
+[CHECKPOINT] Saved progress to behavioral-learning-checkpoint-13500.json
+[BATCH COMPLETE] 10/300 | Time: 10800ms | Avg/User: 7.2ms
+[PROGRESS] Processed 15001/450000 users (125.0 users/sec)
+[BATCH 11] Completed 75 users in 676ms
+[PROGRESS] Processed 15076/450000 users (125.0 users/sec)
+[BATCH 11] Completed 75 users in 551ms
+[PROGRESS] Processed 15151/450000 users (125.1 users/sec)
+[BATCH 11] Completed 75 users in 567ms
+[PROGRESS] Processed 15228/450000 users (125.2 users/sec)
+[BATCH 11] Completed 75 users in 511ms
+[PROGRESS] Processed 15301/450000 users (125.1 users/sec)
+[BATCH 11] Completed 75 users in 743ms
+[PROGRESS] Processed 15376/450000 users (125.1 users/sec)
+[BATCH 11] Completed 75 users in 553ms
+[PROGRESS] Processed 15451/450000 users (125.2 users/sec)
+[BATCH 11] Completed 75 users in 517ms
+[PROGRESS] Processed 15526/450000 users (125.3 users/sec)
+[BATCH 11] Completed 75 users in 502ms
+[PROGRESS] Processed 15601/450000 users (125.3 users/sec)
+[BATCH 11] Completed 75 users in 566ms
+[PROGRESS] Processed 15677/450000 users (125.3 users/sec)
+[BATCH 11] Completed 75 users in 593ms
+[PROGRESS] Processed 15751/450000 users (125.3 users/sec)
+[BATCH 11] Completed 75 users in 530ms
+[PROGRESS] Processed 15826/450000 users (125.4 users/sec)
+[BATCH 11] Completed 75 users in 580ms
+[PROGRESS] Processed 15901/450000 users (125.5 users/sec)
+[BATCH 11] Completed 75 users in 488ms
+[PROGRESS] Processed 15976/450000 users (125.6 users/sec)
+[BATCH 11] Completed 75 users in 497ms
+[PROGRESS] Processed 16052/450000 users (125.7 users/sec)
+[BATCH 11] Completed 75 users in 493ms
+[PROGRESS] Processed 16126/450000 users (125.7 users/sec)
+[BATCH 11] Completed 75 users in 539ms
+[PROGRESS] Processed 16201/450000 users (125.8 users/sec)
+[BATCH 11] Completed 75 users in 508ms
+[PROGRESS] Processed 16276/450000 users (125.9 users/sec)
+[BATCH 11] Completed 75 users in 656ms
+[PROGRESS] Processed 16351/450000 users (125.9 users/sec)
+[BATCH 11] Completed 75 users in 549ms
+[PROGRESS] Processed 16427/450000 users (125.9 users/sec)
+[BATCH 11] Completed 75 users in 594ms
+[BATCH COMPLETE] 11/300 | Time: 11219ms | Avg/User: 7.5ms
+[BATCH 12] Completed 75 users in 757ms
+[BATCH 12] Completed 75 users in 665ms
+[BATCH 12] Completed 75 users in 712ms
+[BATCH 12] Completed 75 users in 599ms
+[BATCH 12] Completed 75 users in 654ms
+[BATCH 12] Completed 75 users in 537ms
+[BATCH 12] Completed 75 users in 564ms
+[BATCH 12] Completed 75 users in 544ms
+[BATCH 12] Completed 75 users in 648ms
+[BATCH 12] Completed 75 users in 533ms
+[BATCH 12] Completed 75 users in 698ms
+[BATCH 12] Completed 75 users in 525ms
+[BATCH 12] Completed 75 users in 499ms
+[BATCH 12] Completed 75 users in 535ms
+[BATCH 12] Completed 75 users in 630ms
+[BATCH 12] Completed 75 users in 691ms
+[BATCH 12] Completed 75 users in 567ms
+[BATCH 12] Completed 75 users in 520ms
+[BATCH 12] Completed 75 users in 539ms
+[BATCH 12] Completed 75 users in 756ms
+[BATCH COMPLETE] 12/300 | Time: 12176ms | Avg/User: 8.1ms
+[PROGRESS] Processed 18002/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 538ms
+[PROGRESS] Processed 18076/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 570ms
+[PROGRESS] Processed 18153/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 586ms
+[PROGRESS] Processed 18226/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 605ms
+[PROGRESS] Processed 18301/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 499ms
+[PROGRESS] Processed 18376/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 772ms
+[PROGRESS] Processed 18452/450000 users (125.6 users/sec)
+[BATCH 13] Completed 75 users in 618ms
+[PROGRESS] Processed 18526/450000 users (125.6 users/sec)
+[BATCH 13] Completed 75 users in 580ms
+[PROGRESS] Processed 18602/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 505ms
+[PROGRESS] Processed 18678/450000 users (125.7 users/sec)
+[BATCH 13] Completed 75 users in 548ms
+[PROGRESS] Processed 18752/450000 users (125.8 users/sec)
+[BATCH 13] Completed 75 users in 523ms
+[PROGRESS] Processed 18826/450000 users (125.8 users/sec)
+[BATCH 13] Completed 75 users in 578ms
+[PROGRESS] Processed 18902/450000 users (125.9 users/sec)
+[BATCH 13] Completed 75 users in 561ms
+[PROGRESS] Processed 18976/450000 users (125.9 users/sec)
+[BATCH 13] Completed 75 users in 535ms
+[PROGRESS] Processed 19052/450000 users (125.9 users/sec)
+[BATCH 13] Completed 75 users in 549ms
+[PROGRESS] Processed 19126/450000 users (126.0 users/sec)
+[BATCH 13] Completed 75 users in 523ms
+[PROGRESS] Processed 19201/450000 users (126.0 users/sec)
+[BATCH 13] Completed 75 users in 679ms
+[PROGRESS] Processed 19276/450000 users (126.1 users/sec)
+[BATCH 13] Completed 75 users in 451ms
+[PROGRESS] Processed 19351/450000 users (126.1 users/sec)
+[BATCH 13] Completed 75 users in 518ms
+[PROGRESS] Processed 19428/450000 users (126.2 users/sec)
+[BATCH 13] Completed 75 users in 544ms
+[BATCH COMPLETE] 13/300 | Time: 11286ms | Avg/User: 7.5ms
+[BATCH 14] Completed 75 users in 564ms
+[BATCH 14] Completed 75 users in 635ms
+[BATCH 14] Completed 75 users in 681ms
+[BATCH 14] Completed 75 users in 729ms
+[BATCH 14] Completed 75 users in 529ms
+[BATCH 14] Completed 75 users in 571ms
+[BATCH 14] Completed 75 users in 508ms
+[BATCH 14] Completed 75 users in 634ms
+[BATCH 14] Completed 75 users in 558ms
+[BATCH 14] Completed 75 users in 664ms
+[BATCH 14] Completed 75 users in 647ms
+[BATCH 14] Completed 75 users in 512ms
+[BATCH 14] Completed 75 users in 470ms
+[BATCH 14] Completed 75 users in 531ms
+[BATCH 14] Completed 75 users in 510ms
+[BATCH 14] Completed 75 users in 615ms
+[BATCH 14] Completed 75 users in 782ms
+[BATCH 14] Completed 75 users in 509ms
+[BATCH 14] Completed 75 users in 645ms
+[BATCH 14] Completed 75 users in 464ms
+[BATCH COMPLETE] 14/300 | Time: 11764ms | Avg/User: 7.8ms
+[PROGRESS] Processed 21001/450000 users (126.2 users/sec)
+[BATCH 15] Completed 75 users in 637ms
+[PROGRESS] Processed 21076/450000 users (126.2 users/sec)
+[BATCH 15] Completed 75 users in 573ms
+[PROGRESS] Processed 21151/450000 users (126.2 users/sec)
+[BATCH 15] Completed 75 users in 572ms
+[PROGRESS] Processed 21226/450000 users (126.3 users/sec)
+[BATCH 15] Completed 75 users in 510ms
+[PROGRESS] Processed 21301/450000 users (126.3 users/sec)
+[BATCH 15] Completed 75 users in 572ms
+[PROGRESS] Processed 21376/450000 users (126.4 users/sec)
+[BATCH 15] Completed 75 users in 515ms
+[PROGRESS] Processed 21452/450000 users (126.4 users/sec)
+[BATCH 15] Completed 75 users in 540ms
+[PROGRESS] Processed 21526/450000 users (126.5 users/sec)
+[BATCH 15] Completed 75 users in 489ms
+[PROGRESS] Processed 21602/450000 users (126.5 users/sec)
+[BATCH 15] Completed 75 users in 519ms
+[PROGRESS] Processed 21676/450000 users (126.6 users/sec)
+[BATCH 15] Completed 75 users in 538ms
+[PROGRESS] Processed 21751/450000 users (126.6 users/sec)
+[BATCH 15] Completed 75 users in 528ms
+[PROGRESS] Processed 21826/450000 users (126.7 users/sec)
+[BATCH 15] Completed 75 users in 497ms
+[PROGRESS] Processed 21901/450000 users (126.7 users/sec)
+[BATCH 15] Completed 75 users in 533ms
+[PROGRESS] Processed 21976/450000 users (126.8 users/sec)
+[BATCH 15] Completed 75 users in 546ms
+[PROGRESS] Processed 22051/450000 users (126.8 users/sec)
+[BATCH 15] Completed 75 users in 518ms
+[PROGRESS] Processed 22126/450000 users (126.8 users/sec)
+[BATCH 15] Completed 75 users in 524ms
+[PROGRESS] Processed 22201/450000 users (127.0 users/sec)
+[BATCH 15] Completed 75 users in 529ms
+[PROGRESS] Processed 22276/450000 users (126.9 users/sec)
+[BATCH 15] Completed 75 users in 570ms
+[PROGRESS] Processed 22351/450000 users (127.0 users/sec)
+[BATCH 15] Completed 75 users in 502ms
+[PROGRESS] Processed 22426/450000 users (127.1 users/sec)
+[BATCH 15] Completed 75 users in 667ms
+[BATCH COMPLETE] 15/300 | Time: 10883ms | Avg/User: 7.3ms
+[BATCH 16] Completed 75 users in 499ms
+[BATCH 16] Completed 75 users in 513ms
+[BATCH 16] Completed 75 users in 491ms
+[BATCH 16] Completed 75 users in 585ms
+[BATCH 16] Completed 75 users in 638ms
+[BATCH 16] Completed 75 users in 660ms
+[BATCH 16] Completed 75 users in 493ms
+[BATCH 16] Completed 75 users in 499ms
+[BATCH 16] Completed 75 users in 504ms
+[BATCH 16] Completed 75 users in 483ms
+[BATCH 16] Completed 75 users in 494ms
+[BATCH 16] Completed 75 users in 489ms
+[BATCH 16] Completed 75 users in 528ms
+[BATCH 16] Completed 75 users in 501ms
+[BATCH 16] Completed 75 users in 541ms
+[BATCH 16] Completed 75 users in 600ms
+[BATCH 16] Completed 75 users in 664ms
+[BATCH 16] Completed 75 users in 456ms
+[BATCH 16] Completed 75 users in 523ms
+[BATCH 16] Completed 75 users in 579ms
+[BATCH COMPLETE] 16/300 | Time: 10745ms | Avg/User: 7.2ms
+[PROGRESS] Processed 24003/450000 users (127.7 users/sec)
+[BATCH 17] Completed 75 users in 478ms
+[PROGRESS] Processed 24076/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 576ms
+[PROGRESS] Processed 24151/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 493ms
+[PROGRESS] Processed 24226/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 589ms
+[PROGRESS] Processed 24301/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 571ms
+[PROGRESS] Processed 24376/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 673ms
+[PROGRESS] Processed 24451/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 536ms
+[PROGRESS] Processed 24526/450000 users (127.7 users/sec)
+[BATCH 17] Completed 75 users in 790ms
+[PROGRESS] Processed 24601/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 475ms
+[PROGRESS] Processed 24676/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 671ms
+[PROGRESS] Processed 24751/450000 users (127.7 users/sec)
+[BATCH 17] Completed 75 users in 531ms
+[PROGRESS] Processed 24826/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 505ms
+[PROGRESS] Processed 24901/450000 users (127.8 users/sec)
+[BATCH 17] Completed 75 users in 558ms
+[PROGRESS] Processed 24976/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 468ms
+[PROGRESS] Processed 25051/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 597ms
+[PROGRESS] Processed 25126/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 658ms
+[PROGRESS] Processed 25201/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 479ms
+[PROGRESS] Processed 25276/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 712ms
+[PROGRESS] Processed 25351/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 439ms
+[PROGRESS] Processed 25426/450000 users (127.9 users/sec)
+[BATCH 17] Completed 75 users in 522ms
+[BATCH COMPLETE] 17/300 | Time: 11325ms | Avg/User: 7.5ms
+[BATCH 18] Completed 75 users in 483ms
+[BATCH 18] Completed 75 users in 526ms
+[BATCH 18] Completed 75 users in 488ms
+[BATCH 18] Completed 75 users in 536ms
+[BATCH 18] Completed 75 users in 461ms
+[BATCH 18] Completed 75 users in 520ms
+[BATCH 18] Completed 75 users in 502ms
+[BATCH 18] Completed 75 users in 481ms
+[BATCH 18] Completed 75 users in 586ms
+[BATCH 18] Completed 75 users in 499ms
+[BATCH 18] Completed 75 users in 505ms
+[BATCH 18] Completed 75 users in 466ms
+[BATCH 18] Completed 75 users in 530ms
+[BATCH 18] Completed 75 users in 532ms
+[BATCH 18] Completed 75 users in 819ms
+[BATCH 18] Completed 75 users in 499ms
+[BATCH 18] Completed 75 users in 580ms
+[BATCH 18] Completed 75 users in 578ms
+[BATCH 18] Completed 75 users in 739ms
+[BATCH 18] Completed 75 users in 592ms
+[BATCH COMPLETE] 18/300 | Time: 10926ms | Avg/User: 7.3ms
+[PROGRESS] Processed 27001/450000 users (128.4 users/sec)
+[BATCH 19] Completed 75 users in 589ms
+[PROGRESS] Processed 27076/450000 users (128.4 users/sec)
+[BATCH 19] Completed 75 users in 565ms
+[PROGRESS] Processed 27151/450000 users (128.5 users/sec)
+[BATCH 19] Completed 75 users in 490ms
+[PROGRESS] Processed 27226/450000 users (128.5 users/sec)
+[BATCH 19] Completed 75 users in 547ms
+[PROGRESS] Processed 27301/450000 users (128.5 users/sec)
+[BATCH 19] Completed 75 users in 509ms
+[PROGRESS] Processed 27376/450000 users (128.6 users/sec)
+[BATCH 19] Completed 75 users in 666ms
+[PROGRESS] Processed 27452/450000 users (128.6 users/sec)
+[BATCH 19] Completed 75 users in 456ms
+[PROGRESS] Processed 27527/450000 users (128.6 users/sec)
+[BATCH 19] Completed 75 users in 525ms
+[PROGRESS] Processed 27601/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 477ms
+[PROGRESS] Processed 27676/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 590ms
+[PROGRESS] Processed 27751/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 530ms
+[PROGRESS] Processed 27826/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 501ms
+[PROGRESS] Processed 27903/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 604ms
+[PROGRESS] Processed 27976/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 628ms
+[PROGRESS] Processed 28051/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 670ms
+[PROGRESS] Processed 28126/450000 users (128.7 users/sec)
+[BATCH 19] Completed 75 users in 492ms
+[PROGRESS] Processed 28202/450000 users (128.8 users/sec)
+[BATCH 19] Completed 75 users in 580ms
+[PROGRESS] Processed 28276/450000 users (128.8 users/sec)
+[BATCH 19] Completed 75 users in 446ms
+[PROGRESS] Processed 28351/450000 users (128.9 users/sec)
+[BATCH 19] Completed 75 users in 465ms
+[PROGRESS] Processed 28426/450000 users (128.9 users/sec)
+[BATCH 19] Completed 75 users in 579ms
+[BATCH COMPLETE] 19/300 | Time: 10917ms | Avg/User: 7.3ms
+[BATCH 20] Completed 75 users in 560ms
+[BATCH 20] Completed 75 users in 592ms
+[BATCH 20] Completed 75 users in 749ms
+[BATCH 20] Completed 75 users in 488ms
+[BATCH 20] Completed 75 users in 500ms
+[BATCH 20] Completed 75 users in 497ms
+[BATCH 20] Completed 75 users in 463ms
+[BATCH 20] Completed 75 users in 516ms
+[BATCH 20] Completed 75 users in 543ms
+[BATCH 20] Completed 75 users in 495ms
+[BATCH 20] Completed 75 users in 490ms
+[BATCH 20] Completed 75 users in 486ms
+[BATCH 20] Completed 75 users in 483ms
+[BATCH 20] Completed 75 users in 523ms
+[BATCH 20] Completed 75 users in 473ms
+[BATCH 20] Completed 75 users in 465ms
+[BATCH 20] Completed 75 users in 529ms
+[BATCH 20] Completed 75 users in 491ms
+[BATCH 20] Completed 75 users in 588ms
+[BATCH 20] Completed 75 users in 660ms
+[CHECKPOINT] Saved progress to behavioral-learning-checkpoint-28500.json
+[BATCH COMPLETE] 20/300 | Time: 10599ms | Avg/User: 7.1ms
+[PROGRESS] Processed 30001/450000 users (129.4 users/sec)
+[BATCH 21] Completed 75 users in 689ms
+[PROGRESS] Processed 30076/450000 users (129.3 users/sec)
+[BATCH 21] Completed 75 users in 947ms
+[PROGRESS] Processed 30151/450000 users (129.2 users/sec)
+[BATCH 21] Completed 75 users in 693ms
+[PROGRESS] Processed 30226/450000 users (129.1 users/sec)
+[BATCH 21] Completed 75 users in 706ms
+[PROGRESS] Processed 30301/450000 users (128.9 users/sec)
+[BATCH 21] Completed 75 users in 811ms
+[PROGRESS] Processed 30376/450000 users (128.9 users/sec)
+[BATCH 21] Completed 75 users in 594ms
+[PROGRESS] Processed 30453/450000 users (128.9 users/sec)
+[BATCH 21] Completed 75 users in 563ms
+[PROGRESS] Processed 30526/450000 users (128.8 users/sec)
+[BATCH 21] Completed 75 users in 928ms
+[PROGRESS] Processed 30601/450000 users (128.7 users/sec)
+[BATCH 21] Completed 75 users in 858ms
+[PROGRESS] Processed 30676/450000 users (128.5 users/sec)
+[BATCH 21] Completed 75 users in 773ms
+[PROGRESS] Processed 30752/450000 users (128.4 users/sec)
+[BATCH 21] Completed 75 users in 724ms
+[PROGRESS] Processed 30826/450000 users (128.4 users/sec)
+[BATCH 21] Completed 75 users in 645ms
+[PROGRESS] Processed 30901/450000 users (128.4 users/sec)
+[BATCH 21] Completed 75 users in 477ms
+[PROGRESS] Processed 30976/450000 users (128.4 users/sec)
+[BATCH 21] Completed 75 users in 579ms
+[PROGRESS] Processed 31051/450000 users (128.5 users/sec)
+[BATCH 21] Completed 75 users in 497ms
+[PROGRESS] Processed 31127/450000 users (128.5 users/sec)
+[BATCH 21] Completed 75 users in 555ms
+[PROGRESS] Processed 31201/450000 users (128.5 users/sec)
+[BATCH 21] Completed 75 users in 827ms
+[PROGRESS] Processed 31276/450000 users (128.4 users/sec)
+[BATCH 21] Completed 75 users in 460ms
+[PROGRESS] Processed 31352/450000 users (128.5 users/sec)
+[BATCH 21] Completed 75 users in 522ms
+[PROGRESS] Processed 31426/450000 users (128.5 users/sec)
+[BATCH 21] Completed 75 users in 543ms
+[BATCH COMPLETE] 21/300 | Time: 13396ms | Avg/User: 8.9ms
+[BATCH 22] Completed 75 users in 573ms
+[BATCH 22] Completed 75 users in 625ms
+[BATCH 22] Completed 75 users in 568ms
+[BATCH 22] Completed 75 users in 507ms
+[BATCH 22] Completed 75 users in 532ms
+[BATCH 22] Completed 75 users in 567ms
+[BATCH 22] Completed 75 users in 570ms
+[BATCH 22] Completed 75 users in 567ms
+[BATCH 22] Completed 75 users in 449ms
+[BATCH 22] Completed 75 users in 641ms
+[BATCH 22] Completed 75 users in 798ms
+[BATCH 22] Completed 75 users in 757ms
+[BATCH 22] Completed 75 users in 641ms
+[BATCH 22] Completed 75 users in 584ms
+[BATCH 22] Completed 75 users in 645ms
+[BATCH 22] Completed 75 users in 798ms
+[BATCH 22] Completed 75 users in 648ms
+[BATCH 22] Completed 75 users in 864ms
+[BATCH 22] Completed 75 users in 726ms
+[BATCH 22] Completed 75 users in 846ms
+[BATCH COMPLETE] 22/300 | Time: 12916ms | Avg/User: 8.6ms
+[PROGRESS] Processed 33001/450000 users (127.8 users/sec)
+[BATCH 23] Completed 75 users in 674ms
+[PROGRESS] Processed 33076/450000 users (127.8 users/sec)
+[BATCH 23] Completed 75 users in 736ms
+[PROGRESS] Processed 33151/450000 users (127.8 users/sec)
+[BATCH 23] Completed 75 users in 551ms
+[PROGRESS] Processed 33226/450000 users (127.8 users/sec)
+[BATCH 23] Completed 75 users in 770ms
+[PROGRESS] Processed 33301/450000 users (127.6 users/sec)
+[BATCH 23] Completed 75 users in 723ms
+[PROGRESS] Processed 33377/450000 users (127.6 users/sec)
+[BATCH 23] Completed 75 users in 695ms
+[PROGRESS] Processed 33451/450000 users (127.6 users/sec)
+[BATCH 23] Completed 75 users in 550ms
+[PROGRESS] Processed 33528/450000 users (127.6 users/sec)
+[BATCH 23] Completed 75 users in 767ms
+[PROGRESS] Processed 33605/450000 users (127.5 users/sec)
+[BATCH 23] Completed 75 users in 559ms
+[PROGRESS] Processed 33676/450000 users (127.5 users/sec)
+[BATCH 23] Completed 75 users in 537ms
+[PROGRESS] Processed 33751/450000 users (127.4 users/sec)
+[BATCH 23] Completed 75 users in 995ms
+[PROGRESS] Processed 33826/450000 users (127.3 users/sec)
+[BATCH 23] Completed 75 users in 730ms
+[PROGRESS] Processed 33902/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 747ms
+[PROGRESS] Processed 33976/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 643ms
+[PROGRESS] Processed 34051/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 713ms
+[PROGRESS] Processed 34126/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 520ms
+[PROGRESS] Processed 34201/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 502ms
+[PROGRESS] Processed 34278/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 566ms
+[PROGRESS] Processed 34351/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 545ms
+[PROGRESS] Processed 34426/450000 users (127.2 users/sec)
+[BATCH 23] Completed 75 users in 616ms
+[BATCH COMPLETE] 23/300 | Time: 13146ms | Avg/User: 8.8ms
+[BATCH 24] Completed 75 users in 628ms
+[BATCH 24] Completed 75 users in 595ms
+[BATCH 24] Completed 75 users in 566ms
+[BATCH 24] Completed 75 users in 620ms
+[BATCH 24] Completed 75 users in 651ms
+[BATCH 24] Completed 75 users in 743ms
+[BATCH 24] Completed 75 users in 652ms
+[BATCH 24] Completed 75 users in 496ms
+[BATCH 24] Completed 75 users in 498ms
+[BATCH 24] Completed 75 users in 593ms
+[BATCH 24] Completed 75 users in 478ms
+[BATCH 24] Completed 75 users in 513ms
+[BATCH 24] Completed 75 users in 555ms
+[BATCH 24] Completed 75 users in 822ms
+[BATCH 24] Completed 75 users in 685ms
+[BATCH 24] Completed 75 users in 547ms
+[BATCH 24] Completed 75 users in 557ms
+[BATCH 24] Completed 75 users in 555ms
+[BATCH 24] Completed 75 users in 899ms
+[BATCH 24] Completed 75 users in 526ms
+[BATCH COMPLETE] 24/300 | Time: 12180ms | Avg/User: 8.1ms
+[PROGRESS] Processed 36001/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 665ms
+[PROGRESS] Processed 36076/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 579ms
+[PROGRESS] Processed 36152/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 578ms
+[PROGRESS] Processed 36226/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 539ms
+[PROGRESS] Processed 36301/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 671ms
+[PROGRESS] Processed 36377/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 616ms
+[PROGRESS] Processed 36452/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 535ms
+[PROGRESS] Processed 36526/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 599ms
+[PROGRESS] Processed 36601/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 522ms
+[PROGRESS] Processed 36676/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 608ms
+[PROGRESS] Processed 36751/450000 users (127.1 users/sec)
+[BATCH 25] Completed 75 users in 506ms
+[PROGRESS] Processed 36826/450000 users (127.1 users/sec)
+[BATCH 25] Completed 75 users in 575ms
+[PROGRESS] Processed 36901/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 605ms
+[PROGRESS] Processed 36976/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 880ms
+[PROGRESS] Processed 37051/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 476ms
+[PROGRESS] Processed 37126/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 511ms
+[PROGRESS] Processed 37201/450000 users (127.1 users/sec)
+[BATCH 25] Completed 75 users in 656ms
+[PROGRESS] Processed 37276/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 558ms
+[PROGRESS] Processed 37351/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 573ms
+[PROGRESS] Processed 37426/450000 users (127.0 users/sec)
+[BATCH 25] Completed 75 users in 515ms
+[BATCH COMPLETE] 25/300 | Time: 11783ms | Avg/User: 7.9ms
+[BATCH 26] Completed 75 users in 604ms
+[BATCH 26] Completed 75 users in 799ms
+[BATCH 26] Completed 75 users in 483ms
+[BATCH 26] Completed 75 users in 587ms
+[BATCH 26] Completed 75 users in 499ms
+[BATCH 26] Completed 75 users in 491ms
+[BATCH 26] Completed 75 users in 547ms
+[BATCH 26] Completed 75 users in 676ms
+[BATCH 26] Completed 75 users in 486ms

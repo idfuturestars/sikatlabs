@@ -1,0 +1,12 @@
+{
+  "name": "eiq-test-suite",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node comprehensive-system-test.js",
+    "test:assessment": "node test-assessment-system.js", 
+    "test:platform": "node test-platform.js",
+    "test:simulation": "node comprehensive-426k-user-simulation.mjs",
+    "test:production": "node comprehensive-production-test.mjs",
+    "test:complete": "npm run test:production"
+  }
+}

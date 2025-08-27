@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-08-13T01:42:28.155Z",
+  "analysis": "question_uniqueness",
+  "parameters": {
+    "totalUsers": 1000,
+    "questionsPerUser": 15,
+    "domains": 6,
+    "difficulties": 5
+  },
+  "results": {
+    "totalQuestionsGenerated": 14984,
+    "expectedQuestions": 15000,
+    "duplicateCount": 16,
+    "uniquenessRate": 99.89,
+    "domainDistribution": {
+      "language": 2505,
+      "mathematical": 2484,
+      "pattern": 2452,
+      "logical": 2470,
+      "memory": 2467,
+      "spatial": 2606
+    },
+    "difficultyDistribution": {
+      "comprehension": 2505,
+      "concepts": 2484,
+      "recognition": 2452,
+      "reasoning": 5076,
+      "recall": 2467
+    }
+  },
+  "assessment": "GOOD"
+}
