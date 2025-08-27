@@ -1,0 +1,147 @@
+config:
+  target: '{{ $processEnvironment.PERF_BASE_URL || "http://localhost:3000" }}'
+  phases:
+    - duration: 60
+      arrivalRate: 1
+      name: "Warm up"
+    - duration: 120 
+      arrivalRate: 5
+      name: "Ramp up load"
+    - duration: 300
+      arrivalRate: 10
+      name: "Sustained load"
+    - duration: 120
+      arrivalRate: 15
+      name: "Peak load"
+    - duration: 60
+      arrivalRate: 2
+      name: "Cool down"
+  defaults:
+    headers:
+      Content-Type: 'application/json'
+  processor: "./eiq-processor.js"
+
+scenarios:
+  - name: "Complete EIQ User Journey"
+    weight: 80
+    flow:
+      - post:
+          url: "/api/auth/demo-login"
+          json:
+            username: "load_test_user_{{ $randomNumber(1, 10000) }}"
+            password: "demo123"
+          capture:
+            - json: "$.token"
+              as: "authToken"
+            - json: "$.user.id"
+              as: "userId"
+          expect:
+            - statusCode: 200
+            - hasProperty: "token"
+      
+      - post:
+          url: "/api/assessment/start"
+          headers:
+            Authorization: "Bearer {{ authToken }}"
+          json:
+            sections: ["core_math", "applied_reasoning"]
+          capture:
+            - json: "$.sessionId"
+              as: "sessionId"
+          expect:
+            - statusCode: 200
+            - hasProperty: "sessionId"
+      
+      - get:
+          url: "/api/viral-challenge/{{ sessionId }}/questions?count=5"
+          headers:
+            Authorization: "Bearer {{ authToken }}"
+          capture:
+            - json: "$.questions"
+              as: "questions"
+          expect:
+            - statusCode: 200
+            - contentType: json
+            - hasProperty: "questions"
+      
+      - loop:
+          count: 3
+          over: "questions"
+          flow:
+            - think: 2
+            - post:
+                url: "/api/viral-challenge/{{ sessionId }}/submit"
+                headers:
+                  Authorization: "Bearer {{ authToken }}"
+                json:
+                  questionId: "{{ $loopElement.id }}"
+                  answer: "{{ $randomString() }}"
+                  responseTime: "{{ $randomNumber(1000, 8000) }}"
+                expect:
+                  - statusCode: 200
+      
+      - get:
+          url: "/api/assessment/adaptive?sessionId={{ sessionId }}&section=core_math"
+          headers:
+            Authorization: "Bearer {{ authToken }}"
+          expect:
+            - statusCode: 200
+
+      - think: 1
+
+  - name: "API Health Check"
+    weight: 10
+    flow:
+      - get:
+          url: "/api/health"
+          expect:
+            - statusCode: 200
+
+  - name: "Concurrent Sessions Test"
+    weight: 10
+    flow:
+      - post:
+          url: "/api/auth/demo-login"
+          json:
+            username: "concurrent_user_{{ $randomNumber(1, 1000) }}"
+            password: "demo123"
+          capture:
+            - json: "$.token"
+              as: "authToken"
+          expect:
+            - statusCode: 200
+
+      - loop:
+          count: 3
+          flow:
+            - post:
+                url: "/api/assessment/start"
+                headers:
+                  Authorization: "Bearer {{ authToken }}"
+                json:
+                  sections: ["core_math"]
+                capture:
+                  - json: "$.sessionId"
+                    as: "sessionId{{ $loopCount }}"
+                expect:
+                  - statusCode: 200
+
+            - get:
+                url: "/api/viral-challenge/{{ sessionId{{ $loopCount }} }}/questions?count=3"
+                headers:
+                  Authorization: "Bearer {{ authToken }}"
+                expect:
+                  - statusCode: 200
+                  - header: "cache-control"
+                    regex: "no-store"
+
+expect:
+  - statusCode: [200, 201, 202]
+  - maxResponseTime: 5000
+
+metrics:
+  - name: "response_time_p95"
+    type: "histogram"
+    summary: "p95"
+  - name: "error_rate"
+    type: "rate"
