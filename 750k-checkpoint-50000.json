@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-08-17T01:08:20.956Z",
+  "checkpoint": 50000,
+  "metrics": {
+    "totalUsers": 50005,
+    "successfulUsers": 144,
+    "failedUsers": 49861,
+    "successRate": "0.29",
+    "avgResponseTime": 960,
+    "features": {
+      "assessments": 95,
+      "scores": 0,
+      "viralChallenges": 0,
+      "roleModels": 0,
+      "socialGraphs": 59,
+      "behavioralAnalyses": 46,
+      "apiKeys": 0
+    }
+  }
+}
