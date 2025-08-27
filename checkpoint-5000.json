@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-08-12T05:45:31.537Z",
+  "totalUsers": 5000,
+  "successfulOperations": 5000,
+  "failedOperations": 0,
+  "currentBatch": 47,
+  "elapsed": 86.27061463400001
+}

@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-08-17T01:00:22.852Z",
+  "testUserId": "test-user-scoring-1755392422217",
+  "scores": {
+    "iq": {
+      "score": 89,
+      "range": {
+        "min": 40,
+        "max": 160
+      },
+      "percentile": 23,
+      "description": "Low Average"
+    },
+    "eiq": {
+      "score": 776,
+      "range": {
+        "min": 300,
+        "max": 850
+      },
+      "percentile": 87,
+      "description": "Exceptional Learning Capacity"
+    },
+    "alternative": {
+      "score": 34,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "percentile": 34,
+      "description": "Developing Holistic Skills"
+    },
+    "combined": {
+      "score": 62,
+      "percentile": 62,
+      "description": "Proficient Overall Intelligence"
+    },
+    "breakdown": {
+      "iq": {
+        "verbal": 100,
+        "quantitative": 100,
+        "spatial": 0,
+        "logical": 100,
+        "overall": 89
+      },
+      "eiq": {
+        "problemSolving": 60,
+        "knowledgeBreadth": 166.66666666666669,
+        "learningSpeed": 70.1,
+        "adaptability": 0,
+        "overall": 776
+      },
+      "alternative": {
+        "confidence": 0.5399999999999998,
+        "improvement": 26.66666666666666,
+        "patterns": 0.09500000000000001,
+        "strategy": 0.05666666666666668,
+        "overall": 34
+      }
+    },
+    "recommendations": [
+      "Focus on logical reasoning and problem-solving exercises",
+      "Explore specialized domains to maximize your learning potential",
+      "Work on building confidence and strategic thinking",
+      "Strengthen your spatial skills"
+    ]
+  },
+  "status": "SUCCESS"
+}

@@ -1,0 +1,40 @@
+# Google Cloud Run configuration
+runtime: nodejs20
+
+# Environment variables
+env_variables:
+  NODE_ENV: production
+  PORT: 8080
+
+# Automatic scaling configuration
+automatic_scaling:
+  min_instances: 0
+  max_instances: 100
+  target_cpu_utilization: 0.6
+
+# Resource allocation
+resources:
+  cpu: 1
+  memory_gb: 1
+
+# Health check configuration
+readiness_check:
+  path: "/ready"
+  check_interval_sec: 10
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 1
+
+liveness_check:
+  path: "/health"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 1
+
+# Network configuration
+network:
+  instance_tag: eiq-platform
+
+# Security
+service_account: eiq-service-account@your-project-id.iam.gserviceaccount.com

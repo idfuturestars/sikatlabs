@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-08-14T10:42:05.286Z",
+  "summary": {
+    "total": 10,
+    "passed": 9,
+    "failed": 1,
+    "criticalFailed": 1,
+    "avgResponseTime": "888.00"
+  },
+  "results": [
+    {
+      "name": "Open EIQ API - Public Assessment",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 63,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Open EIQ API - Assessment by ID",
+      "status": "FAILED",
+      "httpStatus": 404,
+      "responseTime": 45,
+      "missingKeys": [
+        "assessmentId",
+        "status"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Viral Challenge - Start Challenge",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 4,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Viral Challenge - Leaderboard",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 4,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Adaptive Assessment - Next Question",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 9,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Adaptive Assessment - EIQ Score",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 8742,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Role Model Matching",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 4,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Social Graph - User Network",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 3,
+      "missingKeys": [],
+      "critical": false,
+      "jsonValid": true
+    },
+    {
+      "name": "Developer API - Analytics",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 3,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Public API - Quick Check",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 3,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    }
+  ],
+  "deployment_ready": false,
+  "compliance_status": "NON_COMPLIANT"
+}

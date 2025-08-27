@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-08-14T10:31:08.516Z",
+  "summary": {
+    "total": 10,
+    "passed": 1,
+    "failed": 9,
+    "criticalFailed": 8,
+    "avgResponseTime": "1745.10"
+  },
+  "results": [
+    {
+      "name": "Open EIQ API - Public Assessment",
+      "status": "FAILED",
+      "httpStatus": 200,
+      "responseTime": 37,
+      "missingKeys": [
+        "eiqScore",
+        "cognitiveProfile"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Open EIQ API - Assessment by ID",
+      "status": "FAILED",
+      "httpStatus": 401,
+      "responseTime": 4,
+      "missingKeys": [
+        "assessmentId",
+        "status"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Viral Challenge - Start Challenge",
+      "status": "FAILED",
+      "httpStatus": 200,
+      "responseTime": 3,
+      "missingKeys": [
+        "sessionId",
+        "questions",
+        "timeLimit"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Viral Challenge - Leaderboard",
+      "status": "PASSED",
+      "httpStatus": 200,
+      "responseTime": 3,
+      "missingKeys": [],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Adaptive Assessment - Next Question",
+      "status": "FAILED",
+      "httpStatus": 500,
+      "responseTime": 6843,
+      "missingKeys": [
+        "id",
+        "question",
+        "difficulty"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Adaptive Assessment - EIQ Score",
+      "status": "FAILED",
+      "httpStatus": 200,
+      "responseTime": 10232,
+      "missingKeys": [
+        "eiqScore"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Role Model Matching",
+      "status": "FAILED",
+      "error": "HTML_RESPONSE",
+      "critical": true,
+      "responseTime": 32
+    },
+    {
+      "name": "Social Graph - User Network",
+      "status": "FAILED",
+      "error": "HTML_RESPONSE",
+      "critical": false,
+      "responseTime": 10
+    },
+    {
+      "name": "Developer API - Analytics",
+      "status": "FAILED",
+      "httpStatus": 200,
+      "responseTime": 4,
+      "missingKeys": [
+        "totalRequests"
+      ],
+      "critical": true,
+      "jsonValid": true
+    },
+    {
+      "name": "Public API - Quick Check",
+      "status": "FAILED",
+      "httpStatus": 200,
+      "responseTime": 283,
+      "missingKeys": [
+        "question"
+      ],
+      "critical": true,
+      "jsonValid": true
+    }
+  ],
+  "deployment_ready": false,
+  "compliance_status": "NON_COMPLIANT"
+}

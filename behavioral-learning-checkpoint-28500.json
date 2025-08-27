@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-12T18:37:26.458Z",
+  "processedUsers": 30000,
+  "successRate": "0.00",
+  "behavioralDataPoints": 0,
+  "cognitiveGrowthPredictions": 0,
+  "aiProviderUsage": {
+    "anthropic": 0,
+    "gemini": 0,
+    "openai": 0
+  }
+}
